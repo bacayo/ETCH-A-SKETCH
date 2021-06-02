@@ -1,0 +1,42 @@
+body {
+  background-color: #39cccc;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  border: 5px solid greenyellow;
+  margin: 30px auto;
+  padding: 0px;
+  background-color: black;
+}
+.sqr {
+  background-color: white;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background-color: rgba(255, 255, 255, 0.75);
+  color:black;
+  border: 1px solid gold;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem; 
+}
+.btn:hover {
+  transform: scale(1.3);
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 2px solid gold;
+}
+.title {
+  color:slateblue;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+}
